@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Personal Card Widget</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/5.5.0/css/foundation.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="js/resume-cards.js"></script>
+    </head>
+
+    <body>
+        <br/>
+        <div class="row">
+          <div class="small-12 text-center title">
+            <img src="img/jeremy-avatar-v9-small.png">
+            <h1>Jeremy Pruitt</h1>
+          </div>
+        </div>
+        <div class="card card1 small-centered"><a class="fa fa-remove close close1"></a>
+          <div class="row top clearfix">
+            <div class="small-2 column"><img src="img/juniper-logo-square1.png" class="pic"/></div>
+            <div class="small-10 column top-text">
+              <h3>Sr Manager of Engineering Private Cloud</h3>
+              <a class="date">Feb 2017 - Present</a>
+              <a href="https://twitter.com/JuniperNetworks" class="toggle">@JuniperNetworks</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 column middle middle1">
+              <p>Managed an OpenStack-based private cloud consumed by the engineering organization for development builds and testing.</p>
+              <ul>
+                <li>Responsible for designing, implementing, and maintaining 2,000+ VM private cloud using OpenStack and Contrail SDN.</li>
+                <li>Re-factored the problem management process using a framework that includes Ishikawa diagrams, corrective action multi-variable charts, and supporting processes. This effort resulted in more accurately identifying the source and impact of issues in the environment.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <a class="final final1 small-12 column text-center">
+              <i class="fa fa-caret-up reply"></i>
+              <span class="text text1">More Info</span>
+            </a>
+          </div>
+        </div>
+        <div class="card card2 small-centered"><a class="fa fa-remove close close2"></a>
+          <div class="row top clearfix">
+            <div class="small-2 column"><img src="img/juniper-logo-square1.png" class="pic"/></div>
+            <div class="small-10 column top-text">
+              <h3>IT Sr Manager of Cloud & Automation</h3>
+              <a class="date">Oct 2014 - Feb 2017</a>
+              <a href="https://twitter.com/JuniperNetworks" class="toggle">@JuniperNetworks</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 column middle middle2">
+              <p>Managed a team of cloud automation engineers responsible for the automation tools and processes that drive both AWS public cloud and OpenStack private cloud environments. Designed a common automation toolchain for the configuration management and deployment of Linux, FreeBSD, OpenStack, ESX, AWS, and Contrail SDN configuration management and deployment.</p>
+              <ul>
+                <li>Designed infrastructures and applications in AWS with no planned downtime that auto-heal, auto-scale, and are resilient to datacenter and regional outages.</li>
+                <li>Developed an infrastructure development lifecycle for managing the configuration, testing, deployment, patching, and termination of VMs in an OpenStack environment.</li>
+                <li>Developed and executed a global training program to empower cloud operators and engineers to leverage the infrastructure development lifecycle. Training was primarily conducted as workshops as well as pairing and peer review built into the process itself.</li>
+                <li>Developed tunable automation to audit and remediate the hardening of CentOS, Ubuntu, and FreeBSD operating systems using Ansible and Goss.</li>
+                <li>Developed a solution fanotify and golang to listen for and react to filesystem events in order to capture diffs of code changes. By capturing the diffs we can recreate the state of a development workspace with only the diff and the commit without affecting the developer.</li>
+                <li>Created CI pipelines using pipeline-as-code principles with Concourse CI (initially Jenkins) and Docker. This allowed us to manage CI pipeline configuration as YAML files in the same git repository as the infra and/or app code.</li>
+                <li>Worked with the networking team to automate both AWS and Contrail SDN configuations.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <a class="final final2 small-12 column text-center">
+              <i class="fa fa-caret-up reply"></i>
+              <span class="text text2">More Info</span>
+            </a>
+          </div>
+        </div>
+        <div class="card card3 small-centered"><a class="fa fa-remove close close3"></a>
+          <div class="row top clearfix">
+            <div class="small-2 column"><img src="img/juniper-logo-square1.png" class="pic"/></div>
+            <div class="small-10 column top-text">
+              <h3>IT Manager of Cloud & Automation</h3>
+              <a class="date">Mar 2012 - Oct 2014</a>
+              <a href="https://twitter.com/JuniperNetworks" class="toggle">@JuniperNetworks</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 column middle middle3">
+              <p>Managed a team of cloud automation engineers responsible for the automation tools and processes that deployed and configured ESX VMs and bare-metal operating systems.</p>
+              <ul>
+                <li>Developed an automated pipeline for creating and deploying VMs using opensource infrastructure-as-code tools and practices.</li>
+                <li>Implemented a BMC CLM-based cloud automation platform. This included all aspects of a managed cloud including a self-service portal, cost accounting, and a tunable intelligent placement engine.</li>
+                <li>Consolidated all opensource automation efforts into a single toolchain for all future development. This standardized the various ad-hoc automation efforts into a common set of tools and processes. The same toolchain was used in our subsequent public and private cloud efforts, as well as our network automation efforts.</li>
+                <li>I had the privilege of being the first person to run the puppet configuration management tool natively on a Junos networking device. This drove interest in using puppet and other opensource configuration management tools as part of our sales and professional services efforts.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <a class="final final3 small-12 column text-center">
+              <i class="fa fa-caret-up reply"></i>
+              <span class="text text3">More Info</span>
+            </a>
+          </div>
+        </div>
+        <div class="card card4 small-centered"><a class="fa fa-remove close close4"></a>
+          <div class="row top clearfix">
+            <div class="small-2 column"><img src="img/juniper-logo-square1.png" class="pic"/></div>
+            <div class="small-10 column top-text">
+              <h3>IT Infrastructure Manager</h3>
+              <a class="date">Jan 2010 - Mar 2012</a>
+              <a href="https://twitter.com/JuniperNetworks" class="toggle">@JuniperNetworks</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 column middle middle4">
+              <p>Managed a global infrastructure and operations team tasked with supporting Juniper’s engineering community. Responsible for the overall architectural vision, design, delivery, and maintenance of Juniper’s engineering infrastructure.</p>
+              <ul>
+                <li>Managed a team that resolved 16K+ support tickets a year while adhering to TTO􀍬TTR SLAs.</li>
+                <li>Responsible for the maintenance of 1,500 servers across 6 datacenters in 3 countries while adhering to time-to-own and time-to-resolve SLAs.</li>
+                <li>Adopted Kanban for a cross-functional operations team in order to optimize flow and move from time-based focus to a work-in-progress focus. This increased focus due to work-in-progress limits has resulted in a significant reduction in cycle time and increased efficiency.</li>
+                <li>Leveraged puppet, mcollective, cucumber, splunk, and github to deliver a new operational model and supporting processes.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <a class="final final4 small-12 column text-center">
+              <i class="fa fa-caret-up reply"></i>
+              <span class="text text4">More Info</span>
+            </a>
+          </div>
+        </div>
+    </body>
+</html>
