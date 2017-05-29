@@ -5,6 +5,7 @@
 * [Secret Management in an Immutable World](https://youtu.be/4O2uurPmQp8) (20170522)
 * [Provisioning the HashiCorp Stack on Cloud Infrastructure](https://youtu.be/8ZRa0lLq8OU) (20170522)
 * [GEO Failover Made Easy with Consul](https://youtu.be/tzk2HaOZ5nY) (20160918)
+* [DevOps Delivered: Deploying Azure Infrastructure with Terraform](https://youtu.be/LzXQsHQOkpM) (20170301)
 
 ### .Net & Visual Studio
 * [.NET Core and Visual Studio for Mac](https://youtu.be/l2TR0pB2yQo) (20170522) 
