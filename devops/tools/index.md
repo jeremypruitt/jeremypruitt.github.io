@@ -10,3 +10,4 @@
 
 ### Misc
 * Tool: [Teleport: Modern SSH server for clusters and teams](http://gravitational.com/teleport)
+* Video: [Turtles All the Way Down: Storing Secrets in the Cloud and the Data Center](https://youtu.be/OUSvv2maMYI) (20151001) 
