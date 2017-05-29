@@ -1,4 +1,2 @@
-Various notes I have collected over the years
-==================
-
+## Various notes I have collected over the years
   - [DevOps & Cloud](/devops)
