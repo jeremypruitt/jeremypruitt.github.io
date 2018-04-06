@@ -9,6 +9,7 @@
 * [SRE NYC: Terraform Best Practices](https://youtu.be/B375x3J-2mA) (20170510)
 * [Organizing Infrastructure Config and Workflow](https://youtu.be/fYNb3obVqMg) (20170917)
 * [Create, Change, and Orchestrate AWS Infrastructure with Terraform](https://youtu.be/TFLQcgZr0no) (20161117)
+* [Terraform Your Monitoring: Simplify your Datadog configs] (https://vimeo.com/237934245) (20171101)
 
 ### .Net & Visual Studio
 * [.NET Core and Visual Studio for Mac](https://youtu.be/l2TR0pB2yQo) (20170522) 
